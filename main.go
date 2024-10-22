@@ -19,9 +19,9 @@ func main() {
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
     options := []Option{
-        {Value: "1", Text: "Option 1"},
-        {Value: "2", Text: "Option 2"},
-        {Value: "3", Text: "Option 3"},
+        {Value: "1", Text: "Chandan"},
+        {Value: "2", Text: "Surabhi"},
+        {Value: "3", Text: "Piyush"},
     }
 
     tmpl := template.Must(template.ParseFiles("index.html"))
